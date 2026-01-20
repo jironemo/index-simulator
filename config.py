@@ -1,0 +1,10 @@
+"""Application configuration for the new MVC-based LSM Tree Studio."""
+
+DATA_CSV_PATH = "student_performance_10k.csv"
+UI_REFRESH_INTERVAL_MS = 100
+UI_WIDTH = 1200
+UI_HEIGHT = 800
+LSM_MEMTABLE_THRESHOLD = 16
+LSM_LEVELS = 4
+BPTREE_ORDER = 4
+DISK_BPTREE_SNAPSHOT_LIMIT = 1000
